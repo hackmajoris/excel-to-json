@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "6.9.0"
+  },
+  "scripts": {
+    "start": "node ./endpoints/device-api.js"
+  },
+  "dependencies": {
+
+    "xlsx" :"0.9.6",
+    "cfenv": "1.0.4",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0",
+    "fs" :"0.0.1-security",
+    "express-fileupload": "0.1.2"
+  }
+}
